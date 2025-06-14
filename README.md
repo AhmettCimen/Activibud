@@ -1,42 +1,38 @@
 # Aktivite Arkadaş Bulma Sistemi
 
-Bu proje, insanların çeşitli aktiviteler için arkadaş bulabilecekleri bir web tabanlı platformdur.
+Aktivite Arkadaş Bulma Sistemi, **kullanıcıların çeşitli aktiviteler oluşturabileceği**, **katılabileceği**, **takip edebileceği** ve **yeni arkadaşlar edinebileceği** web tabanlı bir platformdur.  
 
-## Özellikler
+Uygulamada **kullanıcılar var olan aktiviteleri görebilir**, **hesap oluşturup** bu aktivitelere **katılabilir**, ya da **kendi aktivitelerini oluşturabilirler**.  
+Böylece kendi **ilgi alanlarına göre insanları bir araya getirebilir**, arkadaş çevrelerini genişleteebilir ve **yalnız vakit geçirmek yerine yeni dostluklar kurabilirler**.  
+Tüm bunlar, **kullanımı oldukça kolay ve sade bir arayüz** üzerinden sunulmaktadır.
 
-- Kullanıcı kaydı ve girişi
-- Aktivite kategorileri (Doğa Yürüyüşü, Futbol, Basketbol, Tenis, vb.)
-- Aktivite oluşturma ve yönetme
-- Yaklaşan aktiviteleri listeleme
-- Aktivite detaylarını görüntüleme
-- Aktivite katılımı
+## 🌟 Özellikler
 
-## Teknolojiler
+- 🔐 **Kullanıcı Yönetimi:**  
+  - Kayıt Olma (Şifreler `password_hash()` ile güvenli bir şekilde saklanır)  
+  - Giriş Yapma (PHP Sessions)  
+  - Oturum Kapatma  
 
-- PHP
-- MySQL
-- HTML5
-- Bootstrap 5
-- JavaScript
+- 📅 **Aktivite Yönetimi:**  
+  - Aktivite oluşturma (başlık, açıklama, kategori, konum, tarih/saat, maksimum katılımcı)  
+  - Aktiviteleri listeleme, detayları ve katılımcıları görüntüleme  
+  - Aktiviteyi düzenleme ve silme (sadece oluşturan)  
 
-## Kurulum
+- 👥 **Aktivite Katılımı:**  
+  - Oturum açanlar aktivitelere katılabilir ya da ayrılabilir  
+  - Katılımcı sayısını ve maksimum kapasiteyi görebilir  
 
-1. Projeyi klonlayın
-2. MySQL veritabanını oluşturun
-3. `config/database.php` dosyasında veritabanı bağlantı bilgilerini güncelleyin
-4. Web sunucusunda projeyi çalıştırın
+## 🏡 Ana Menü
 
-## Veritabanı Yapısı
+![Ana Menü](main.png)
 
-- users (kullanıcılar)
-- categories (aktivite kategorileri)
-- activities (aktiviteler)
-- activity_participants (aktivite katılımcıları)
+Ana menüde, oluşturulan ve yakında gerçekleşecek aktiviteleri, kategorileri ve kendi oluşturduğunuz aktiviteleri rahatlıkla görebilirsiniz.
 
-## Ekran Görüntüleri
+## 📁 Aktiviteler Sayfası
 
-[Ekran görüntüleri eklenecek]
+![Aktiviteler Sayfası](activities.png)
 
-## Video Tanıtım
+Aktiviteler sayfasında, belirli bir kategoriye göre ya da anahtar kelimeyle arama yapabilir, istediğiniz aktivitenin detaylarına ulaşabilir ve katılabilirsiniz.
 
-[Video bağlantısı eklenecek]
+## 📹 Tanıtım Videosu
+🎥 [Proje Tanıtım Videosu](https://www.youtube.com/watch?v=1ML2v-h8-PU)
