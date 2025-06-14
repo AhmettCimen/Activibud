@@ -35,6 +35,4 @@ Ana menüde, oluşturulan ve yakında gerçekleşecek aktiviteleri, kategorileri
 Aktiviteler sayfasında, belirli bir kategoriye göre ya da anahtar kelimeyle arama yapabilir, istediğiniz aktivitenin detaylarına ulaşabilir ve katılabilirsiniz.
 
 ## 📹 Tanıtım Videosu
-
-[Videoyu İzle]([https://youtu.be/1ML2v-h8-PU)
-
+🎥 [Proje Tanıtım Videosu](https://www.youtube.com/watch?v=1ML2v-h8-PU)
