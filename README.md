@@ -36,4 +36,5 @@ Aktiviteler sayfasında, belirli bir kategoriye göre ya da anahtar kelimeyle ar
 
 ## 📹 Tanıtım Videosu
 
-[Videoya buradan ulaşabilirsiniz.]((https://youtu.be/1ML2v-h8-PU))  
+[Videoyu İzle]([https://youtu.be/1ML2v-h8-PU)
+
