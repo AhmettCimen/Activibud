@@ -16,7 +16,8 @@ $query = "SELECT a.*, c.name as category_name, u.username as creator_name,
           (SELECT COUNT(*) FROM activity_participants WHERE activity_id = a.id) as participant_count
           FROM activities a
           LEFT JOIN categories c ON a.category_id = c.id
-          LEFT JOIN users u ON a.creator_id = u.id";
+          LEFT JOIN users u ON a.creator_id = u.id
+          WHERE 1=1";
 
 $params = array();
 
